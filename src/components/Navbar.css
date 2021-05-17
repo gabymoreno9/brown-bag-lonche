@@ -9,6 +9,7 @@
 .logo{
     width: 100px;
     padding-left: 20px;
+    cursor: pointer;
 }
 ul{
     list-style-type: none;   
