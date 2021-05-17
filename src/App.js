@@ -11,8 +11,6 @@ function App() {
       
         <div className = "hero">
           <div className = "hero-text">
-            Welcome to 
-            <br/>
             Brown Bag 
             <br/>
             Lonche
