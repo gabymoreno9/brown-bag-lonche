@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 .hero{
-    width: 1000px;
+    width: calc(100% - 60px); 
     border-radius:  10px;
     margin: 0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/hero.jpeg");
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
+  
 }
 .hero-text{
     color: #f2f2f2;
     padding-left: 100px;
+    padding-right: 20px;
     line-height: 1.75;
     font-size: 50px;
     padding-top: 100px;
@@ -18,12 +20,16 @@
     font-family: 'Quicksand', sans-serif;
 }
 .about{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 .about h2{
     text-align: center;
 }
-.about p{
+.about-text{
     line-height: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
 }
+

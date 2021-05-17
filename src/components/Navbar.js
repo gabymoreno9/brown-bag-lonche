@@ -6,7 +6,7 @@ function Navbar() {
       <div className="Navbar">
           <a href="./app.js"><img class = "logo" src={logo}/></a>
         <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="./app.js#about">About</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Resources</a></li>
             <li><a href="#">Recordings</a></li>
