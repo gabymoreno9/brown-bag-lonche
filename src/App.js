@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       
-        <div className = "hero">
+        <div className = "hero-home">
           <div className = "hero-text">
             Brown Bag 
             <br/>

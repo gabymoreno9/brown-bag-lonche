@@ -1,4 +1,5 @@
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -8,11 +9,11 @@ function Navbar() {
 
         <div className="navbar-items">
           <ul>
-              <li><a href="./app.js#about">About</a></li>
-              <li><a href="#">Events</a></li>
+              <li><Link to="app#about">About</Link></li>
+              <li><a href="">Events</a></li>
               <li><a href="#">Resources</a></li>
               <li><a href="#">Recordings</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="contact">Contact</Link></li>
           </ul>
         </div>
       </div>
