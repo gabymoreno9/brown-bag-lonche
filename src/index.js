@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Contact from './Contact';
 import Events from './Events';
+import Resources from './Resources';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/contact"><Contact /></Route>
         <Route path="/events"><Events /></Route>
+        <Route path="/resources"><Resources /></Route>
         <Route path="/"><App /></Route>
       </Switch>
     </Router>
